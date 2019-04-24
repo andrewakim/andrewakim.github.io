@@ -1,0 +1,73 @@
+body {
+  background: #272F38;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.body-container {
+  margin-top: 150px;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+
+.profile-pic {
+  border-radius: 50px;
+}
+
+.card-top {
+  border-radius: .25rem .25rem 0 0;
+  padding: 40px 0;
+}
+
+.pp-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  box-shadow: 1px 21px 60px -5px rgba(0,0,0,0.75);
+  margin: 0 auto;
+}
+
+.pp-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 50px;
+  left: 12px;
+  opacity: 0;
+}
+
+.overlay-img {
+  height: 15px;
+  width: auto;
+  transform: rotate(20deg);
+}
+
+/* bootstrap overrides */
+.nav-link {
+  color: #ECEFF1;
+  font-size: 2em;
+}
+
+.nav-link:hover {
+  color: #607D8B;
+}
+
+.card {
+  border: none;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-body {
+  background: #D5DCEB;
+  padding: 50px 0;
+  height: 175px;
+  border-radius: 0 0 .25rem .25rem;
+}
