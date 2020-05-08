@@ -49,6 +49,10 @@ body {
 }
 
 /* bootstrap overrides */
+.navbar {
+  z-index: 999;
+}
+
 .nav-link {
   color: #ECEFF1;
   font-size: 2em;
