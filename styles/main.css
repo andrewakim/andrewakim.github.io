@@ -48,6 +48,56 @@ body {
   transform: rotate(20deg);
 }
 
+.card-footer {
+  background: #D5DCEB;
+  border: none;
+  border-radius: 0 0 .25rem .25rem;
+}
+
+.hidden-container {
+  text-align: right;
+}
+
+.secret-link {
+  text-decoration: none;
+  color: #D5DCEB;
+}
+
+.secret-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.custom-container {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+#root {
+  height: 100vh;
+}
+
+#main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+#heading {
+  text-align: center;
+  color: #FFF;
+}
+
 /* bootstrap overrides */
 .navbar {
   z-index: 999;
@@ -74,7 +124,6 @@ body {
   background: #D5DCEB;
   padding: 50px 0;
   height: 175px;
-  border-radius: 0 0 .25rem .25rem;
 }
 
 #canvas {
