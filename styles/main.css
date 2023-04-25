@@ -82,14 +82,11 @@ body {
   text-decoration: underline;
 }
 
-#root {
-  height: 100vh;
-}
-
 #main-content {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 15%;
   height: 60%;
 }
 
